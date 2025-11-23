@@ -26,7 +26,7 @@ public class Primes {
                 count++;
             }
         }
-        double percentage = (double) count / (n - 1) * 100;
+        double percentage = (double) count / n * 100;
         int roundedPercentage = (int) Math.round(percentage);
         System.out.println("There are " + count + " primes between 2 and " + n + " (" + roundedPercentage
                 + "% are primes)");
