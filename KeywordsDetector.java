@@ -52,7 +52,7 @@ public class KeywordsDetector {
                 String lowerKeyword = keyword.toLowerCase();
                 if (contains(lowerSentence, lowerKeyword)) {
                     System.out.println(sentence);
-                    break; // No need to check other keywords for this sentence
+                    break;
                 }
             }
         }
